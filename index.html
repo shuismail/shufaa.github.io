@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CV</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<style>
+      #navbar{
+        background-color: rgb(192, 62, 11);
+        display: flex;
+
+    }
+      
+    ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 5px;
+       
+        
+    }
+    ul li a{
+        text-decoration: none;
+        margin-left: 1000px;
+    } 
+    form{
+        background-color: rgb(19, 146, 168);
+        padding: 100px;
+    }
+    
+        
+     
+    /* .container{
+        background-image: url(it2.jpg); */
+        
+    
+     /* table,tr,th,td{
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 4px;
+        padding-right: 4px; 
+        
+    } */
+
+    
+    
+
+</style>
+<body>
+    <div class="container" style="background-image: url(it2.jpg);">
+        
+        <div id="navbar">
+            <ul>
+                <li><a href="my cv.html">my vetae</a></li>
+                <li><a href="contanct.html">Contact Us</a></li>
+            </ul> 
+               
+        </div>
+        <!-- <img src="maxresdefault.jpg"> -->
+        <h2>Login Form</h2>
+	<form >
+		<label for="username">Username</label>
+		<input type="text" id="username" name="username" placeholder="Enter your username">
+
+		<label for="password">Password</label>
+		<input type="password" id="password" name="password" placeholder="Enter your password">
+
+		<input type="button" id="login" value="Login" >
+		<!-- <input type="button" value="Clear" onclick="clearForm()"> -->
+	</form>
+    
+	
+       
+
+
+    </div>
+    
+</body>
+<div id="info"></div>
+<script src="login.js"></script>
+
+</html>
